@@ -1,0 +1,31 @@
+{
+  "name": "chatapps",
+  "version": "1.0.0",
+  "description": "This is very basic chat apps using web socket.io",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sidsinha16/Basic-chat-apps.git"
+  },
+  "keywords": [
+    "websocket",
+    "mongodb"
+  ],
+  "author": "siddharth sinha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sidsinha16/Basic-chat-apps/issues"
+  },
+  "homepage": "https://github.com/sidsinha16/Basic-chat-apps#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.5",
+    "nodemon": "^1.18.3",
+    "socket.io": "^2.1.1"
+  }
+}
